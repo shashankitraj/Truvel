@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "71788316914",
+    "firebase_url": "https://truvel-8056b.firebaseio.com",
+    "project_id": "truvel-8056b",
+    "storage_bucket": "truvel-8056b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71788316914:android:f98bdec0d7de5111",
+        "android_client_info": {
+          "package_name": "com.example.aakarsh.truvel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71788316914-rd4gcdi4c51a2bosap3o1kpi1s1gttte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aakarsh.truvel",
+            "certificate_hash": "d7f11de7085d0bad61e008c03bc19b401ecb7bef"
+          }
+        },
+        {
+          "client_id": "71788316914-cilahe76emunjchf1ui52sv5rae6f6bs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFwJGscRxWpUNTypOox9rtBaLAAjOV9LI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71788316914-cilahe76emunjchf1ui52sv5rae6f6bs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

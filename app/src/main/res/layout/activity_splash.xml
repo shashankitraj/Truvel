@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:weightSum="5">
+
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo_v"
+            android:layout_toRightOf="@id/tra"
+            android:id="@+id/v"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="60dp"
+            android:paddingRight="35dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="2"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo_el"
+            android:id="@+id/el"/>
+    </LinearLayout>-->
+   <!-- <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/v"
+        android:layout_marginRight="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/v" />
+
+-->
+
+
+
+
+</RelativeLayout>
+
+
+
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Splash">
+
+
+                <android.support.design.widget.CoordinatorLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/app"
+                    tools:context=".MainActivity">
+
+                        <android.support.design.widget.AppBarLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+                                <android.support.v7.widget.Toolbar
+                                    android:id="@+id/toolbar"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="?attr/actionBarSize"
+                                    android:background="?attr/colorPrimary"
+                                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                        </android.support.design.widget.AppBarLayout>
+
+
+                </android.support.design.widget.CoordinatorLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/app">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/logo"
+                            android:id="@+id/image" />
+
+                </RelativeLayout>
+</RelativeLayout>-->
